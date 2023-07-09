@@ -26,7 +26,7 @@
 .nav-container li {
   list-style: none;
 }
-.nav-container li > a {
+.nav-container li a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
@@ -141,7 +141,7 @@
   width: 75%;
   margin: auto;
   padding: 10px;
-  margin-top: -90px;
+  margin-top: -95px;
   border-radius: 10px;
 }
 .phone-icon {
@@ -158,8 +158,51 @@
   font-size: 20px;
   text-align: justify;
 }
-.appointment-btn{
-    font-size: 15px;
-    padding: 15px 25px;
-    border-radius: 30px;
+.appointment-btn {
+  font-size: 15px;
+  padding: 35px 25px;
+  border-radius: 30px;
+}
+/* This is Blog section */
+.blog-title {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+.blog-description {
+  font-size: 22px;
+  width: 33%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.card {
+  width: 380px;
+  height: 440px;
+  background: white;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 10px;
+}
+.card-img {
+  width: 100%;
+}
+.card-text {
+  padding: 20px;
+}
+.card-title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+}
+.card-desc{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 530;
 }
