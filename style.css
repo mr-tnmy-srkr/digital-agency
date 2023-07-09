@@ -1,7 +1,17 @@
+/* This is shared style */
 * {
   margin: 0;
   padding: 0;
 }
+.red-text {
+  color: red;
+}
+.bg-primary {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+/* This is navbar */
 .nav-container {
   display: flex;
   justify-content: space-around;
@@ -21,4 +31,41 @@
   font-size: 20px;
   font-weight: bold;
   color: #000;
+}
+/* this is banner section */
+.banner-container {
+  height: 100vh;
+  background-image: url(./asset/image/background.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner-heading {
+  font-size: 90px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.banner-text {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 100;
+  padding: 20px 0;
+}
+.btn {
+  font-size: 25px;
+  padding: 10px 20px;
+  margin: 0 15px;
+  border-radius: 10px;
+  box-shadow: #000;
+  cursor: pointer;
+  border: 0;
+  box-shadow: 0 8px 16px 0 rgba(243, 237, 237, 0.3),
+    0 6px 20px 0 rgba(245, 240, 240, 0.5);
 }
