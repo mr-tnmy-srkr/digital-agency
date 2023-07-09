@@ -69,3 +69,66 @@
   box-shadow: 0 8px 16px 0 rgba(243, 237, 237, 0.3),
     0 6px 20px 0 rgba(245, 240, 240, 0.5);
 }
+.service-heading {
+  font-size: 40px;
+  color: rgb(190, 207, 208);
+}
+
+.service-container {
+  background-image: url(./asset/image/footer-bg.png),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  height: 80vh;
+  padding: 80px;
+  display: flex;
+  gap: 50px;
+}
+.service-icon {
+  display: flex;
+}
+.service-btn {
+  background-color: #fff;
+  border-radius: 25px;
+  margin: 25px 0;
+  box-shadow: none;
+}
+.service-logo {
+  width: 100px;
+}
+.service-info {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(190, 207, 208);
+}
+.service-info {
+  width: 75%;
+  font-size: 20px;
+  margin: 20px 0;
+  color: rgb(190, 207, 208);
+}
+.service-item {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+  width: 150px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.author-container {
+  display: flex;
+  gap: 80px;
+  margin-top: 30px;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-right: 2px solid red;
+  padding-right: 80px;
+}
+.author-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+}
